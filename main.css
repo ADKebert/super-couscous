@@ -1,0 +1,102 @@
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #dddddd;
+}
+
+ul {
+  display: flex;
+  flex-grow: 2;
+  padding: 0;
+}
+
+li {
+  margin-left: 5%;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.redbar {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 5px solid red;
+  width: 80%;
+}
+
+.logo {
+  margin-left: 5%;
+  /*flex-grow: 1;*/
+}
+
+.search-icon {
+  margin-right: 5%;
+  /*flex-grow: 1;*/
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+a:link {
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:red;
+}
+a:active {
+  color: yellow;
+}
+
+.details {
+  position: fixed;
+  left: 30%;
+  font-family: sans-serif;
+  text-align: center;
+  width: 40%;
+}
+h2 {
+  font-size: 75%;
+}
+
+.column-container {
+  display: flex;
+  justify-content: center;
+}
+
+.column-one {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.text-columns {
+  display:flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.header-column {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.text-column {
+  flex:1 0 calc(25% - 10px);
+  margin-top: 12%;
+}
+
+h3 {
+  font-size: 75%;
+}
+
+h3.h3-red {
+  color: red;
+}
